@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="content-section"> 
+    <form method="POST" action="">
+        <fieldset class="form-group">
+            <legend class="border-bottom mb-4">Patient: {{name}}</legend>
+            <div>
+                <p class="text-success">Form Submitted at {{time}}</p>
+            </div>
+            <br>
+            <div>
+                <p class="text-muted">Patient Name: {{name}}</p>
+                <p class="text-muted">Type: {{type}}</p>
+                <p class="text-muted">Reading: {{reading}}</p>
+            </div>
+            <div style="float: left; padding-left: 0px">
+                <input type="button" class="btn btn-outline-info" value="Back" onclick="history.back()">
+            </div>
+            <div style="float: right; padding-right: 10px">
+                <a href="/" class="btn btn-dark">Home</a>
+            </div>
+        </fieldset>
+        
+    </form>
+</div>
+
+
+{% endblock content%}

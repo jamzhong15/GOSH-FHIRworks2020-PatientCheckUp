@@ -1,4 +1,4 @@
-PatientCheckUp (Winner for category) 
+PatientCheckUp
 
 This web application is used to submit forms to update information regarding the health of a patient stored in the FHIR records. It will currently allow you to submit the blood pressure and heart rate readings on specific patients, which are identified by their unique ID. The aim of this package is to help nurses efficiently log patient information using a fast and easy-to-use interface to save valuable time in the hospital.
 
